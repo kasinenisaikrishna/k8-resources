@@ -6,4 +6,5 @@ provisioner: efs.csi.aws.com
 parameters:
   provisioningMode: efs-ap
   fileSystemId: fs-00cbb3f0e4313c700 # this is joindevops efs volume file system id we have to replace with our's while practicing
+  directoryPerms: "700"
   basePath: "/expense" 
